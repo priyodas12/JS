@@ -11,3 +11,9 @@ console.log(myTeam.indexOf('t'));//5
 console.log(myTeam.indexOf('gen'));//2
 console.log(myTeam.indexOf('o')); // -1
 
+let myWcTeam = "Morocco";
+
+//str[x]= x will be inclusive;
+console.log(myWcTeam.slice(3));
+console.log(myWcTeam.slice(4,6));
+
