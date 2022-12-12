@@ -14,7 +14,21 @@ console.log(Math.random());
 
 let a = Math.random();
 
-console.log(a);
-console.log(Math.floor(a * 1000));
+//console.log(a);
+//console.log(Math.floor(a * 1000));
 
-console.log(Math.round(a * 1000));
+//console.log(Math.round(a * 1000));
+
+let c=new Array(10);
+
+for (let index = 0; index < 10; index++) {
+    const b = Math.random();
+    const element = Math.floor(b * 10) + 1;
+    c[index] = element;
+    console.log(`element: ${element}`);
+}
+console.log(c);
+
+for (let i = 0; i < c.length; i++) {
+    console.log("arr: " + c[i]);    
+}
