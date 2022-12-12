@@ -32,3 +32,11 @@ console.log(c);
 for (let i = 0; i < c.length; i++) {
     console.log("arr: " + c[i]);    
 }
+
+console.log(typeof ("hello"));//string
+console.log(typeof (3));//number
+console.log(typeof (2.010));//number
+console.log(typeof (true));//boolean
+
+console.log(parseInt('2.99'));
+console.log(parseFloat('3.99'));
