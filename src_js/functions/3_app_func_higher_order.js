@@ -1,3 +1,5 @@
+//functions are simply stored into variables,
+
 function addition(x, y) {
     return x + y;
 }
