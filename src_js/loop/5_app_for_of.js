@@ -1,3 +1,4 @@
+//specilly for array type data iteration.
 const numbers = [22, 9, 11, 0, 12, 42, 1, 5];
 for (let num of numbers) { 
     console.log(num);
