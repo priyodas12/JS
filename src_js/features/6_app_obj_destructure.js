@@ -6,6 +6,9 @@ const country = {
   gdp: 6.4,
 };
 
-const { capital, gdp } = country;
+//const { capital, gdp } = country;
+//renaming the destructuring
+const { name: nation } = country;
 
-console.log(`Capital :${capital} ,GDP: ${gdp}`);
+//console.log(`Capital :${capital} ,GDP: ${gdp}`);
+console.log(nation);
