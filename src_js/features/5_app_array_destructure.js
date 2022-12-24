@@ -7,4 +7,10 @@ const names = ["Robin", "Makou", "Devis", "Mike", "Tommas"];
 
 const [gold, silver, bronze] = names;
 
+const [first, , , fourth] = names;
+
+const [winner, ...others] = names;
+
 console.log(gold, silver, bronze);
+console.log(first, fourth);
+console.log(winner, others);
