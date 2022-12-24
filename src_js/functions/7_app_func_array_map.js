@@ -21,4 +21,4 @@ const upperWords = words.map(function (w) {
   return w.toLocaleUpperCase().split("").join(".");
 });
 
-console.log(upperWords);
+console.log(upperWords); // ['A.B.C', 'Y.R', 'W.R.T', 'D.G.T', 'C.V.F']
