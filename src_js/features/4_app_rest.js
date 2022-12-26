@@ -7,3 +7,8 @@ function printAll(a, b, ...c) {
 }
 
 printAll(...numbers); //here we used spread operator
+/*
+a: 12
+b: 72
+c: 93,64,81
+*/
