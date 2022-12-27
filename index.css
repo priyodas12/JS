@@ -1,0 +1,28 @@
+h1 {
+    color:chocolate;
+    font-size: 70px;
+    padding: 30px 420px 10px;
+}
+
+h3 {
+    color: crimson;
+    font-size: 30px;
+    padding: 30px 120px 10px;
+}
+
+p{
+    color: rgb(4, 62, 73);
+}
+
+.li-special{
+    color: rgb(67, 220, 20);
+    font-size: 30px;
+    border: 1px solid rgb(43, 226, 217)
+}
+
+
+#dog{
+   width: 550px; 
+   border: 1px solid rebeccapurple;
+}
+
