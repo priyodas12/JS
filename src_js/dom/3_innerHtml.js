@@ -11,6 +11,6 @@ const h1 = document.querySelector("h1");
 //h1.innerText += "<b> is super cool!!!!</b>";
 
 //always update with innerHtml
-h1.innerHTML += "<b> is cool!!!!</b>";
+//h1.innerHTML += "<b> is cool!!!!</b>";
 
 console.log(h1);
