@@ -24,3 +24,7 @@ const body = document.body;
 const bodyText = body.innerText;
 
 console.log(bodyText);
+
+const bodyTextContent = body.textContent;
+
+console.log(bodyTextContent);
